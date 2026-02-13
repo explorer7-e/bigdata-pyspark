@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Main",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PYSPARK_PYTHON": "/usr/bin/python3",
+                "PYSPARK_DRIVER_PYTHON": "/usr/bin/python3"
+            }
+        },
+        {
+            "name": "Python: Notebook",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/notebooks/analisis_ventas.ipynb",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
