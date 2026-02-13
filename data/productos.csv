@@ -1,0 +1,6 @@
+producto_id,nombre,categoria,stock
+101,Laptop,Electrónica,50
+102,Mouse,Accesorio,200
+103,Teclado,Accesorio,150
+104,Monitor,Electrónica,75
+105,USB,Accesorio,300
