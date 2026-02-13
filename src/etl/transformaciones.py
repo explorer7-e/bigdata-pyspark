@@ -11,13 +11,13 @@ class TransformacionesVentas:
         print("📂 Cargando datos...")
         
         ventas_df = self.spark.read.csv(
-            "file:///home/hadoop/bigdata-spark/data/ventas.csv",
+            "file:///home/hadoop/bigdata-pyspark/data/ventas.csv",
             header=True,
             inferSchema=True
         )
         
         productos_df = self.spark.read.csv(
-            "file:///home/hadoop/bigdata-spark/data/productos.csv",
+            "file:///home/hadoop/bigdata-pyspark/data/productos.csv",
             header=True,
             inferSchema=True
         )

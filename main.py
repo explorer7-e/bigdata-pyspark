@@ -60,7 +60,7 @@ def main():
         print("\n💾 Guardando resultados...")
         os.makedirs("resultados", exist_ok=True)
 
-        base_path = "file:///home/hadoop/bigdata-spark/resultados"
+        base_path = "file:///home/hadoop/bigdata-pyspark/resultados"
 
         metricas_df.write.mode("overwrite").parquet(
             f"{base_path}/metricas_ventas.parquet"
